@@ -4,12 +4,18 @@
   "description": "JavaScript example starter project",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "fs": "0.0.1-security",
-    "parcel-bundler": "^1.6.1"
+    "axios": "^0.22.0",
+    "fs": "^0.0.1-security",
+    "parcel-bundler": "^1.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^1.1.5"
   },
   "devDependencies": {
     "@babel/core": "7.2.0"
@@ -20,5 +26,17 @@
   "keywords": [
     "javascript",
     "starter"
-  ]
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
